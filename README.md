@@ -31,6 +31,12 @@ $ npm install
 ```
 
 ## connect mongoAtlas 
+```
+# On the app.module.ts set your url connection to mongo for local connections:
+
+MongooseModule.forRoot('mongodb://localhost:27017/mongodb_Nest')
+
+```
 
 ## Running the app
 
